@@ -23,4 +23,4 @@ export const NAV_LINKS = [
     name: "Contact",
     href: "#contact",
   },
-]
+]   
