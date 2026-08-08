@@ -1,26 +1,26 @@
 export const NAV_LINKS = [
-    {
-        name:"Home",
-        href: "#home"
-    },
-      {
-    name: "About",
+  {
+    label: "Home",
+    href: "#home",
+  },
+  {
+    label: "About",
     href: "#about",
   },
   {
-    name: "Experience",
+    label: "Experience",
     href: "#experience",
   },
   {
-    name: "Skills",
+    label: "Skills",
     href: "#skills",
   },
   {
-    name: "Projects",
+    label: "Projects",
     href: "#projects",
   },
   {
-    name: "Contact",
+    label: "Contact",
     href: "#contact",
   },
-]   
+];
