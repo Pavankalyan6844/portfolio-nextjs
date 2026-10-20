@@ -35,8 +35,8 @@ export default function MobileMenu({
             className="fixed right-0 top-0 z-50 h-full w-[85%] max-w-sm border-l border-white/10 bg-[#030712]/95 p-6 shadow-2xl backdrop-blur-xl md:hidden"
           >
             <div className="flex items-center justify-between">
-              <span className="font-mono text-sm text-slate-400">
-                Navigation
+              <span className="font-mono text-sm text-slate-400 text-xl">
+                Menu
               </span>
 
               <button
@@ -56,15 +56,16 @@ export default function MobileMenu({
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{
-                      delay: index * 0.05,
+                      delay: 0.08 + index * 0.05,
                     }}
                   >
                     <Link
                       href={link.href}
                       onClick={onClose}
-                      className="block rounded-xl px-4 py-4 text-lg font-medium text-slate-300 transition hover:bg-white/5 hover:text-white"
+                      className=" group flex items-center justify-between rounded-xl px-4 py-4 text-lg font-medium text-slate-300 transition-all duration-300 hover:bg-white/5 hover:pl-6 hover:text-white"
                     >
-                      {link.label}
+                      <span>{link.label}</span>
+
                     </Link>
                   </motion.li>
                 ))}

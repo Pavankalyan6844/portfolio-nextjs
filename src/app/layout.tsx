@@ -13,8 +13,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pavan Portfolio",
-  description: "This is my portfolio website built using Next.js and Tailwind CSS techniques.",
+  title: "Pavan Kalyan | Frontend & Full Stack Developer",
+  description:
+    "Portfolio of Pavan Kalyan — Associate Technical Consultant and developer building modern web applications with React, Next.js, Django and REST APIs.",
+  keywords: [
+    "Pavan Kalyan",
+    "Frontend Developer",
+    "React Developer",
+    "Next.js Developer",
+    "Django Developer",
+    "Full Stack Developer",
+  ],
+  authors: [
+    {
+      name: "Pavan Kalyan",
+    },
+  ],
+  openGraph: {
+    title: "Pavan Kalyan | Developer Portfolio",
+    description:
+      "Modern web applications built with React, Next.js and Django.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
