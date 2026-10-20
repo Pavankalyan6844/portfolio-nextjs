@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pavan Kalyan | Frontend & Full Stack Developer",
+  title: "Pavan Kalyan Porfolio",
   description:
     "Portfolio of Pavan Kalyan — Associate Technical Consultant and developer building modern web applications with React, Next.js, Django and REST APIs.",
   keywords: [
